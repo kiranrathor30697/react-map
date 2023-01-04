@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import App2 from './map/App2'
+import CheckImg from './checkImg/CheckImg'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CheckImg />
+    <br />
     <App2 />
+    <br />
     <App itemsPerPage={4} />
-  </React.StrictMode>
+  </React.StrictMode> 
 );
 
 // If you want to start measuring performance in your app, pass a function
