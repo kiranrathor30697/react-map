@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import App2 from './map/App2'
 import CheckImg from './checkImg/CheckImg'
+import CheckImg2 from './checkImg/CheckImg2'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CheckImg2 />
+    <br />
     <CheckImg />
     <br />
     <App2 />
