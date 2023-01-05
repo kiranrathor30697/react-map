@@ -6,10 +6,14 @@ import App2 from './map/App2'
 import CheckImg from './checkImg/CheckImg'
 import CheckImg2 from './checkImg/CheckImg2'
 import reportWebVitals from './reportWebVitals';
+import CheckImgWithFile from './checkImg/checkImgWithFile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <br />
+    <CheckImgWithFile />
+    <br />
     <CheckImg2 />
     <br />
     <CheckImg />
