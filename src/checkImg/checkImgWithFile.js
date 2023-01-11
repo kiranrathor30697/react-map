@@ -39,7 +39,6 @@ const CheckImgWithFile = () => {
   }, []);
 
   const onImageChange = (event) => {
-    debugger
     if (event.target.files && event.target.files[0]) {
       let reader = new FileReader();
       reader.onload = (e) => {
@@ -48,13 +47,12 @@ const CheckImgWithFile = () => {
       reader.readAsDataURL(event.target.files[0]);
     }
   }
-console.log(url,"imgsimgs")
   return (
     <div>
 
       <input type="file" onChange={onImageChange} className="filetype" id="group_image" />
       <br />
-      {url === undefined ? (
+      {imgs === undefined ? (
         <b>Calculating...</b>
       ) : (
         <>

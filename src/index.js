@@ -7,11 +7,13 @@ import CheckImg from './checkImg/CheckImg'
 import CheckImg2 from './checkImg/CheckImg2'
 import reportWebVitals from './reportWebVitals';
 import CheckImgWithFile from './checkImg/checkImgWithFile';
+import MorqueeTag from './morqueeTag/MorqueeTag';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <br />
+    <MorqueeTag />
+    {/* <br />
     <CheckImgWithFile />
     <br />
     <CheckImg2 />
@@ -20,7 +22,7 @@ root.render(
     <br />
     <App2 />
     <br />
-    <App itemsPerPage={4} />
+    <App itemsPerPage={4} /> */}
   </React.StrictMode> 
 );
 
