@@ -8,11 +8,13 @@ import CheckImg2 from './checkImg/CheckImg2'
 import reportWebVitals from './reportWebVitals';
 import CheckImgWithFile from './checkImg/checkImgWithFile';
 import MorqueeTag from './morqueeTag/MorqueeTag';
+import UploadFile from './progreass/ProgressFile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MorqueeTag />
+    {/* <MorqueeTag /> */}
+    <UploadFile />
     {/* <br />
     <CheckImgWithFile />
     <br />
